@@ -1,0 +1,73 @@
+/*新闻-s*/
+.news{
+    width: 100%;
+}
+.news .tab{
+    /*height: 60px;*/
+    width: 100%;
+    background-color: #cccccc;
+
+}
+.news .tab .container li{
+    height: 60px;
+    width: 78px;
+    float: right;
+    list-style: none;
+}
+.news .tab .container li a{
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color:white;
+    text-align: center;
+}
+.news .tab .container li a:hover{
+    text-decoration: none;
+    background-color: white;
+    color:red;
+}
+.news .text{
+    width: 100%;
+}
+.news .text .container {
+    padding: 40px 0;
+    border-bottom: 1px solid #cccccc;
+}
+.news .text .container img{
+    display: block;
+    margin:0 auto;
+}
+.news .text .container p{
+    font-size: 16px;
+    line-height: 40px;
+    text-indent: 2em;
+}
+.news .text .container h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.news .text .container .discrible{
+    padding: 20px 0;
+    border-bottom: 1px solid #cccccc;
+}
+.news .text .container a{
+    display: block;
+    width: 170px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 16px;
+    background-color: #f75a53;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    border-radius: 6px;
+}
+.news .text .container a:hover{
+    background-color: #337ab7;
+}
+/*新闻-e*/

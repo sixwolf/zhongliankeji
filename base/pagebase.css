@@ -1,0 +1,309 @@
+/*头部固定导航-s*/
+.header {
+    width: 100%;
+    z-index: 20;
+   /* position: fixed;
+    left: 0;
+    top: 0;*/
+    border-bottom: 1px solid #cccccc;
+}
+
+/*修改的bootstrap的样式*/
+
+.header .navbar {
+    border: none;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.header .navbar a {
+    font-size: 16px;
+
+}
+
+.header .navbar-default {
+    background-color: white;
+    border: none;
+    opacity: 1;
+}
+
+.header .navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.header .nav .public a {
+    display: block;
+    width: 80px;
+    font-size: 14px;
+    padding: 8px 10px;
+    color: black;
+    border-bottom: 1px solid #cccccc;
+    background-color: white;
+    opacity: 1;
+}
+
+.header .nav .public a:hover {
+    background-color: #ffb3b0;
+    opacity: 1;
+    text-decoration: none;
+    color: black;
+    /*border-radius: 6px;*/
+}
+
+.header .nav li ul {
+    position: absolute;
+    z-index: 20;
+}
+
+.header .nav > li > a {
+    padding: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.header .nav li {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+
+.header .navbar-header a {
+    width: 156px;
+    height: 48px;
+}
+
+.header .navbar-header .navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.header .navbar-default .navbar-toggle .icon-bar {
+    background-color: red;
+}
+
+.header .navbar-toggle .icon-bar {
+    height: 3px;
+    width: 30px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .header .nav li {
+        width: 100%;
+        opacity: 1;
+        border-radius: 0;
+        overflow: hidden;
+    }
+
+    .header .nav li a {
+        color: black;
+    }
+}
+
+@media (max-width: 784px) {
+    #main .keep_nav {
+        display: none;
+    }
+}
+
+/*头部固定导航-e*/
+
+/*footer-s*/
+.footer {
+    width: 100%;
+    background: url(../main/images/main-img/beijing3.jpg) top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer .container {
+    padding: 60px 0 20px 0;
+}
+
+.footer .container ul {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.footer .container li {
+    width: 340px;
+    /*height: 350px;*/
+    margin: 0 auto;
+}
+
+.footer .container li h3 {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.footer .container li p {
+    color: #babcbd;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer .container li input {
+    width: 318px;
+    height: 36px;
+    border: 1px solid #babcbd;
+    background-color: transparent;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer .container li .name {
+    background: url(../main/images/main-img/foot-form-bg.png) no-repeat;
+    background-position: right -2px;
+}
+
+.footer .container .msg .phone {
+    background: url(../main/images/main-img/foot-form-bg.png) no-repeat;
+    background-position: right -42px;
+}
+
+.footer .container .keywords {
+    background: url(../main/images/main-img/foot-form-bg.png) no-repeat;
+    background-position: right -82px;
+}
+
+.footer .container textarea {
+    background: url(../main/images/main-img/foot-form-bg.png) no-repeat;
+    background-position: right -162px;
+}
+
+.footer .container li textarea {
+    width: 318px;
+    height: 100px;
+    border: 1px solid #babcbd;
+    background-color: transparent;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /*resize:none;*/
+    color: white;
+
+}
+
+.footer .container li.msg a {
+    display: block;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    background-color: #f75a53;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.footer .container li.msg a:hover {
+    background-color: #009fde;
+}
+
+.footer .container li p.link a {
+    color: #babcbd;
+}
+
+.footer .container li p.link a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .container .kind-link {
+    color: #babcbd;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.footer .container .kind-link a {
+    color: #babcbd;
+    font-size: 14px;
+}
+
+.footer .container .kind-link a:hover {
+    color: white;
+}
+
+.footer .container .msg {
+    position: relative;
+}
+
+.footer .container .msg span {
+    position: absolute;
+    color:pink;
+    display: none;
+}
+.footer .container .msg .name-juge{
+    left: 217px;
+    top: 76px;
+}
+.footer .container .msg .phone-juge{
+    left: 217px;
+    top: 132px;
+}
+@media (max-width: 1200px) {
+    .footer .container ul {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer .container ul {
+        display: flex;
+    }
+}
+
+/*footer-e*/
+
+/*adress-s*/
+.adress {
+    width: 100%;
+    background-color: #14171A;
+}
+
+.adress .container {
+    padding: 20px 0;
+}
+
+.adress .container .text {
+    line-height: 32px;
+    color: #babcbd;
+    float: left;
+    font-size: 12px;
+}
+
+.adress .container .icon {
+    float: right;
+}
+
+.adress .container .icon img {
+    border: none;
+    margin-left: 10px;
+}
+
+@media (max-width: 1000px) {
+    .adress .container .text {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .adress .container .icon {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+/*adress-e*/

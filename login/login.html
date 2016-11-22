@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html ng-app="s7.app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- 处理IE兼容性作用！让IE使用最新渲染引擎渲染画面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="deacription" content="北京中联学艺科技有限公司, 简称中联科技或中联学艺,是一家专门从事互联网建设的公司">
+    <meta name="keywords" content="网站建设 网站开发 移动网站建设 手机网站 微网站建设 APP应用程序 微信营销 企业网站 网页设计 北京网站建设">
+    <link rel="icon" href="../favicon.ico"/>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="./css/login.css"/>
+    <link rel="stylesheet" href="../base/pagebase.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <script src="../js/jquery.js"></script>
+    <!--<script src="../main/js/main.js"></script>-->
+    <script src="../base/pagebase.js"></script>
+    <script src="../js/template-native.js"></script>
+    <script src="../js/angular.js"></script>
+    <script src="../js/angular-route.js"></script>
+    <script src="angular01/login.js"></script>
+    <script src="angular01/register.js"></script>
+    <!--<script src="angular01/trade.js"></script>-->
+    <title>官网中联科技_北京中联学艺科技有限公司_高端网站建设</title>
+</head>
+<body>
+<!--header-s-->
+<div class="header clearfix">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../main/images/main-img/logo.png"/>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="#">网站首页</a></li>
+                    <li>
+                        <a href="#">关于我们</a>
+                        <ul class="subnav1 public clearfix">
+                            <a href="#">公司简介</a>
+                            <a href="#">企业文化</a>
+                            <a href="#">人才招聘</a>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">新闻资讯</a>
+                        <ul class="subnav2 public clearfix">
+                            <a href="#">公司新闻</a>
+                            <a href="#">行业新闻</a>
+                            <a href="#">专业知识</a>
+                        </ul>
+                    </li>
+                    <li><a href="#">成功案例</a></li>
+                    <li><a href="#">团队精英</a></li>
+                    <li>
+                        <a href="#">专业服务</a>
+                        <ul class="subnav3 public clearfix">
+                            <a href="#">服务优势</a>
+                            <a href="#">服务范畴</a>
+                        </ul>
+                    </li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--header-e-->
+
+
+<!--注册页面-s-->
+<div class="login clearfix">
+    <div class="container col-lg-12 clearfix">
+        <div class="box clearfix " ng-view>
+            <!--<img src="images/logo.png" alt=""/>
+            <li class="clearfix">
+                <div class="discrible">昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称</div>
+                <input class="txt" type="text" placeholder="用户昵称"/>
+            </li>
+            <li class="clearfix">
+                <div class="discrible">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</div>
+                <input class="txt" type="text" placeholder="登录密码"/>
+            </li>
+            <li class="clearfix">
+                <div class="discrible">确认密码</div>
+                <input class="txt" type="text" placeholder="确认密码"/>
+            </li>
+            <li class="clearfix last">
+                <div class="discrible">验&nbsp;&nbsp;证&nbsp;&nbsp;码</div>
+                <input class="txt" type="text" placeholder="验&nbsp;&nbsp;证&nbsp;&nbsp;码"/>
+            </li>
+            <a class="submit" href="#">立即登录</a>
+            <div class="prompt">没有账号? <a href="#/login">立即注册</a></div>-->
+        </div>
+    </div>
+</div>
+
+<!--注册页面-e-->
+
+<!--footer-s-->
+<div class="footer clearfix">
+    <div class="container">
+        <ul class=" clearfix">
+            <li class="msg clearfix">
+                <h3>在线预约 Online booking</h3>
+                <input class="name" type="text" placeholder="您的尊称 Name/--->由至少两个汉字组成"/>
+                <input class="phone" type="text" placeholder="您的电话 Phone/--->由至多11个数字组成"/>
+                <textarea type="text" placeholder="您要留言的内容 Content"></textarea>
+                <a class="suc-button" href="#">立即提交 Submit →</a>
+                <span class="name-juge">!!格式错误</span>
+                <span class="phone-juge">!!格式错误</span>
+            </li>
+            <li class=" clearfix">
+                <h3>联系我们 Contact US</h3>
+
+                <p>公司地址：中国·北京朝阳区传媒总部基地B座234</p>
+
+                <p>服务电话：010-85377344</p>
+
+                <p>服务手机：15811250165 / 17051002099</p>
+
+                <p>Q　　Q：2082374788 / 734397645</p>
+
+                <p>E-mail：info@zlxy.net</p>
+
+                <h3>快捷入口 Quick Entry</h3>
+
+                <p class="link"><a href="#">关于我们</a> / <a href="#">新闻资讯</a> /<a href="#">成功案例</a> / <a href="">团队精英</a>
+                    / <a
+                            href="">专业服务</a> / <a href="">联系我们</a> /</p>
+            </li>
+            <li class=" clearfix">
+                <h3>内容搜索 Search</h3>
+                <input class="keywords" type="text" placeholder="输入关键词 keyword"/>
+
+                <p>招商合作 ： 135-2158-1588</p>
+
+                <p>投诉建议 ： 158-1125-1090</p>
+
+                <p>Email ： 736227272@qq.com</p>
+
+            </li>
+        </ul>
+        <div class="kind-link">
+            <p>友情链接： <a href="">亿联招聘</a> <a href="">中联科技 </a>友链申请QQ：2082374788 / 734397645</p>
+        </div>
+    </div>
+</div>
+<!--footer-e-->
+
+<!--adress-s-->
+<div class="adress clearfix">
+    <div class="container">
+        <div class="text">COPYRIGHT © 2008-2015 中联科技 ALL RIGHTS RESERVED 京ICP备12036981号 POWERED BY 技术支持</div>
+        <div class="icon clearfix">
+            <img src="../main/images/main-img/foot1.png" alt=""/>
+            <img src="../main/images/main-img/foot2.png" alt=""/>
+            <img src="../main/images/main-img/foot3.png" alt=""/>
+            <img src="../main/images/main-img/foot4.png" alt=""/>
+            <img src="../main/images/main-img/foot5.png" alt=""/>
+        </div>
+    </div>
+</div>
+<!--adress-e-->
+
+<script>
+    var login = angular.module('s7.app', ['ngRoute','s7.com'])
+    login.config(function ($routeProvider) {
+        $routeProvider
+                .when('/login', {
+                    controller: 'companyController',
+                    templateUrl: 'angular01/login.html'
+                })
+                .when('/register', {
+//         controller: 'cultureControoler',
+                    templateUrl: 'angular01/register.html'
+                })
+/*
+                .otherwise({
+                    template: '<h2>404找不到数据</h2>'
+                })
+*/
+
+    })
+</script>
+
+<script src="../js/bootstrap.min.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+.login {
+    width: 100%;
+    background: url(../images/login_bg.jpg) no-repeat;
+    background-size: cover;
+    /*position: relative;*/
+    /*background-color: #c1e2b3;*/
+}
+
+.login .container {
+    padding: 100px 0;
+}
+
+.login .container .box {
+    padding: 40px 10px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, .3);
+    text-align: center;
+    margin: 0 auto;
+    opacity: .9;
+
+}
+
+.login .container .box img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.login .container .box li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 15px;
+    position: relative;
+    margin: 15px 30px 0;
+
+}
+
+.login .container .box li .discrible {
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #428BCA;
+    float: left;
+    border-radius: 5px 0 0 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.login .container .box li .txt {
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    padding-left: 20px;
+    border-radius: 0 5px 5px 0;
+    color: #08244d;
+    font-size: 14px;
+}
+
+.login .container .box a.submit {
+    display: block;
+    font-weight: 700;
+    width: 330px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    margin: 20px auto;
+    background-color: #428BCA;
+    color: white;
+    border-radius: 5px;
+}
+
+.login .container .box a.submit:hover {
+    text-decoration: none;
+    background-color: #08244d;
+}
+
+.login .container .box .prompt {
+    width: 330px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #cccccc;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+}
+
+.login .container .box .prompt a {
+    display: inline-block;
+    font-size: 14px;
+    color: #428BCA;
+}
+
+.login .container .box li .error {
+    position: absolute;
+    left: 264px;
+    top: 9px;
+    color: red;
+    display: none;
+}
+
+.login .container .box li .right {
+    position: absolute;
+    left: 312px;
+    top: 9px;
+    color: green;
+    font-size: 16px;
+    display: none;
+}
